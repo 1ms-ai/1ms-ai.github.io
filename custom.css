@@ -1,0 +1,11 @@
+body {
+  font-family: "monospace";
+  font-size: 1.5rem;
+  padding: 2rem;
+  background-color: rgb(42, 39, 39);
+  color: white;
+}
+
+a {
+    color: cyan;
+}
