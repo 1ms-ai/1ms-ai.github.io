@@ -1,7 +1,7 @@
 @import "@fontsouce/cousine";
 
 body {
-  font-family: "cousine";
+  font-family: "cousine", sans-serif !important;
   font-size: 3em;
   padding-left: 1em;
   background-color: rgb(42, 39, 39);
