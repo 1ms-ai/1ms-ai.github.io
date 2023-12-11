@@ -1,7 +1,7 @@
 body {
   font-family: "monospace";
-  font-size: 1.5rem;
-  padding: 2rem;
+  font-size: 1.5em;
+  padding: 2em;
   background-color: rgb(42, 39, 39);
   color: white;
 }
@@ -24,8 +24,8 @@ a:active { text-decoration: none; }
 
 .prompt p::after {
   content: "";
-  width: 1rem;
-  height: 2rem;
+  width: 1em;
+  height: 2em;
   background: #c7c6c8;
   display: inline-block;
 }
@@ -33,7 +33,7 @@ a:active { text-decoration: none; }
 .prompt p {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1em;
 }
 
 @keyframes cursor-blink {
