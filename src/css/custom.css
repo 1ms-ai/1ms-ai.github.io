@@ -1,0 +1,32 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import "~@fontsource/abeezee";
+
+:root {
+  font-family: "ABeeZee";
+  --ifm-color-primary: #6279c2;
+  --ifm-color-primary-dark: #748cda;
+  --ifm-color-primary-darker: #6580d6;
+  --ifm-color-primary-darkest: #395bcb;
+  --ifm-color-primary-light: #aebcea;
+  --ifm-color-primary-lighter: #bdc8ee;
+  --ifm-color-primary-lightest: #e9edf9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #91a4e2;
+  --ifm-color-primary-dark: #748cda;
+  --ifm-color-primary-darker: #6580d6;
+  --ifm-color-primary-darkest: #395bcb;
+  --ifm-color-primary-light: #aebcea;
+  --ifm-color-primary-lighter: #bdc8ee;
+  --ifm-color-primary-lightest: #e9edf9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
