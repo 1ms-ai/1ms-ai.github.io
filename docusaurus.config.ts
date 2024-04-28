@@ -4,8 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Making Open Source AI Just Work",
-  tagline:
-    "Solving open source toughest issues, so that AI can be at the reach of anyone.",
+  tagline: "Solving open source toughest issues, so that anyone can  build AI.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -117,7 +116,7 @@ const config: Config = {
         //],
         //},
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 1ms.ai.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 1ms.ai`,
     },
     prism: {
       theme: prismThemes.github,

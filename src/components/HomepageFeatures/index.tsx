@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: '📖',
     description: (
       <>
-      Believing in the existential necessity of openness. Opening our work is not a feature, it's a principle we're striving for.
+      Believing in the existential necessity of openness.
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: '🔥',
     description: (
       <>
-      Believing in the capability of anyone to build great technology, regardless of diplomas or essence. Some might need a little help, and this is our necessity of being.
+      Believing in the capability of anyone to build great technology.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: '🤖',
     description: (
       <>
-        Believing AI is going to change the world and in our responsability to use it.
+        Believing in AI to change the world.
       </>
     ),
   },

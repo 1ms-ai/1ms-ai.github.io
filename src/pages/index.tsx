@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import HomepageUsers from '../components/HomepageUsers';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -36,7 +37,16 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+      <div className="container">
+        <Heading as="h1" className="hero__title text--center">
+          Values
+        </Heading>
         <HomepageFeatures />
+        <Heading as="h1" className="hero__title text--center">
+          Community
+        </Heading>
+        </div>
+        <HomepageUsers />
       </main>
     </Layout>
   );
