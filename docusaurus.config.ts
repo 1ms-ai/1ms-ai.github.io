@@ -80,15 +80,15 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        // {
-        // title: "Docs",
-        // items: [
-        // {
-        // label: "Tutorial",
-        // to: "/docs/intro",
-        // },
-        // ],
-        // },
+        {
+          title: "Contact",
+          items: [
+            {
+              label: "Email: tao.xavier@1ms.ai",
+              to: "mailto:tao.xavier@1ms.ai",
+            },
+          ],
+        },
         //{
         //title: "Community",
         //items: [
