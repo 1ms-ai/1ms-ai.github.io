@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
@@ -80,25 +81,44 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: "",
+    Svg: "",
+    duration: "6 month",
+    location: "",
+    description: (
+      <>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="mailto:tao.xavier@1ms.ai"
+          >
+            Open invitation to join us!
+          </Link>
+        </div>
+      </>
+    ),
+  },
 ];
 
 function Feature({ title, Svg, location, description }: FeatureItem) {
   return (
-    <div className={clsx("col col--12")}>
-      <hr />
-      <div className={clsx("row")}>
-        <div className="text--center text--lg margin--lg col col--2 ">
+    <div className={clsx("col col--10")}>
+      <div className={clsx("row margin-right--lg")}>
+        <div className="text--center text--lg margin-top--lg margin-right--lg col col--2 ">
           <div>
             <img
               src={Svg}
               className="margin--xs"
               style={{ maxHeight: "8rem" }}
-              alt="Haixuan Xavier Tao"
+              alt=""
             />
           </div>
           <span>{location}</span>
         </div>
-        <div className=" text--lg margin--lg col col--8 ">{description}</div>
+        <div className=" margin-right--lg margin-top--lg col col--8 ">
+          {description}
+        </div>
       </div>
     </div>
   );

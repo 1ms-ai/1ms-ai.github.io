@@ -64,11 +64,11 @@ const config: Config = {
             },
           ],
         },
-        {
-          to: "/docs/user-stories",
-          position: "right",
-          label: "User Stories",
-        },
+        // {
+        // to: "/docs/user-stories",
+        // position: "right",
+        // label: "User Stories",
+        // },
         {
           to: "/docs/about-us",
           position: "right",

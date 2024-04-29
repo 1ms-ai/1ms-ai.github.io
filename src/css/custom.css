@@ -5,10 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
-@import "~@fontsource/abeezee";
+@import "~@fontsource/nunito-sans";
 
 :root {
-  font-family: "ABeeZee";
+  font-family: "Nunito Sans";
+  --ifm-heading-font-family: "Nunito Sans";
   --ifm-color-primary: #6279c2;
   --ifm-color-primary-dark: #748cda;
   --ifm-color-primary-darker: #6580d6;
