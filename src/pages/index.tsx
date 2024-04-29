@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome!`}
+      title={`1ms.ai`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
