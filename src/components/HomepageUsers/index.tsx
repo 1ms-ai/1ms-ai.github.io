@@ -104,8 +104,8 @@ const FeatureList: FeatureItem[] = [
 function Feature({ title, Svg, location, description }: FeatureItem) {
   return (
     <div className={clsx("col col--10")}>
-      <div className={clsx("row margin-right--lg")}>
-        <div className="text--center text--lg margin-top--lg margin-right--lg col col--2 ">
+      <div className={clsx("row margin-right--lg margin-bottom--xl")}>
+        <div className="text--center text--lg  margin-right--lg col col--4 ">
           <div>
             <img
               src={Svg}
@@ -116,7 +116,7 @@ function Feature({ title, Svg, location, description }: FeatureItem) {
           </div>
           <span>{location}</span>
         </div>
-        <div className=" margin-right--lg margin-top--lg col col--8 ">
+        <div className=" margin-right--lg margin-top--lg col col--6 ">
           {description}
         </div>
       </div>
