@@ -105,7 +105,7 @@ function Feature({ title, Svg, location, description }: FeatureItem) {
   return (
     <div className={clsx("col col--10")}>
       <div className={clsx("row margin-right--lg margin-bottom--xl")}>
-        <div className="text--center text--lg  margin-right--lg col col--4 ">
+        <div className="text--center text--lg margin-top--lg margin-right--lg col col--4 ">
           <div>
             <img
               src={Svg}
