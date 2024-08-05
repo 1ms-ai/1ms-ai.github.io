@@ -57,9 +57,7 @@ function HomepageHeader() {
             background: "rgba(0, 0, 0, 0.9)",
           }}
         >
-          <Heading as="h1" className="hero__title">
-            {siteConfig.title}
-          </Heading>
+          <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <br />
           <div className={styles.buttons}>
@@ -103,7 +101,7 @@ export default function Home(): JSX.Element {
               </div>
               <div className="col col--4 padding--sm">
                 <XEmbed
-                  url="https://x.com/RemiCadene/status/1803711154218254754"
+                  url="https://x.com/RemiCadene/status/1799000991876178038"
                   width={325}
                 />
               </div>
@@ -121,7 +119,7 @@ export default function Home(): JSX.Element {
               </div>
               <div className="col col--4 padding--sm">
                 <XEmbed
-                  url="https://twitter.com/PINTO03091/status/1777116918950043693"
+                  url="https://x.com/LFAIDataFdn/status/1803703036432273705"
                   width={325}
                 />
               </div>
