@@ -20,8 +20,10 @@ function HomepageHeader() {
   // Define height as 740px on desktop and 300px on mobile
   // This is to ensure that the video is not cut off on mobile
   let height = "740px";
+  let url = "https://www.youtube.com/watch?v=8CrL00Py0RU";
   if (typeof window !== "undefined" && window.innerWidth < 960) {
-    height = "220px";
+    height = "740px";
+    url = "https://youtube.com/shorts/OsFjvhdEaJs";
   }
 
   return (
@@ -32,7 +34,7 @@ function HomepageHeader() {
           style={{ height: height, position: "relative", margin: "auto" }}
         >
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=8CrL00Py0RU"
+            url={url}
             className="player"
             width="100%"
             height="100%"
@@ -46,13 +48,13 @@ function HomepageHeader() {
         <div
           style={{
             position: "relative",
-            bottom: height === "740px" ? "250px" : "0",
+            bottom: height === "740px" ? "240px" : "200px",
             left: "0",
             right: "0",
             textAlign: "center",
             padding: "20px",
             color: "white",
-            background: "rgba(0, 0, 0, 0.8)",
+            background: "rgba(0, 0, 0, 0.9)",
           }}
         >
           <Heading as="h1" className="hero__title">
