@@ -95,19 +95,37 @@ export default function Home(): JSX.Element {
             <div className="row margin-top--xl margin-bottom--xl">
               <div className="col col--4 padding--sm">
                 <XEmbed
-                  url="https://twitter.com/blackanger/status/1612648192373587969"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
                   url="https://twitter.com/Thom_Wolf/status/1780241959036047604"
                   width={325}
                 />
               </div>
               <div className="col col--4 padding--sm">
                 <XEmbed
+                  url="https://x.com/RemiCadene/status/1803711154218254754"
+                  width={325}
+                />
+              </div>
+              <div className="col col--4 padding--sm">
+                <XEmbed
+                  url="https://x.com/ax_pey/status/1787386223310393627"
+                  width={325}
+                />
+              </div>
+              <div className="col col--4 padding--sm">
+                <XEmbed
+                  url="https://x.com/HaixuanT/status/1786442032602349959"
+                  width={325}
+                />
+              </div>
+              <div className="col col--4 padding--sm">
+                <XEmbed
                   url="https://twitter.com/PINTO03091/status/1777116918950043693"
+                  width={325}
+                />
+              </div>
+              <div className="col col--4 padding--sm">
+                <XEmbed
+                  url="https://twitter.com/blackanger/status/1612648192373587969"
                   width={325}
                 />
               </div>
