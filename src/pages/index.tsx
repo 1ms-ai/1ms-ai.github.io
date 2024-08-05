@@ -65,7 +65,7 @@ function HomepageHeader() {
               className="button button--secondary button--lg"
               to="https://github.com/dora-rs/dora"
             >
-              Try our latest technology: dora-rs
+              Check our latest project dora-rs
             </Link>
           </div>
         </div>
