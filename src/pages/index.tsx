@@ -12,23 +12,62 @@ import {
   InstagramEmbed,
   LinkedInEmbed,
 } from "react-social-media-embed";
+import ReactPlayer from "react-player";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
+  // Define height as 740px on desktop and 300px on mobile
+  // This is to ensure that the video is not cut off on mobile
+  let height = "740px";
+  if (typeof window !== "undefined" && window.innerWidth < 960) {
+    height = "220px";
+  }
+
   return (
-    <header className={clsx("hero", styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://github.com/dora-rs/dora"
-          >
-            Try our latest technology: dora-rs
-          </Link>
+    <header>
+      <div className="container" style={{ padding: 0 }}>
+        <div
+          className="player__wrapper"
+          style={{ height: height, position: "relative", margin: "auto" }}
+        >
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=8CrL00Py0RU"
+            className="player"
+            width="100%"
+            height="100%"
+            playing={true}
+            loop={true}
+            playsinline={true}
+            volume={0.5}
+            muted={true}
+          />
+        </div>
+        <div
+          style={{
+            position: "relative",
+            bottom: height === "740px" ? "250px" : "0",
+            left: "0",
+            right: "0",
+            textAlign: "center",
+            padding: "20px",
+            color: "white",
+            background: "rgba(0, 0, 0, 0.8)",
+          }}
+        >
+          <Heading as="h1" className="hero__title">
+            {siteConfig.title}
+          </Heading>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <br />
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/dora-rs/dora"
+            >
+              Try our latest technology: dora-rs
+            </Link>
+          </div>
         </div>
       </div>
     </header>
