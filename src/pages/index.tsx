@@ -48,13 +48,13 @@ function HomepageHeader() {
         <div
           style={{
             position: "relative",
-            bottom: height === "740px" ? "240px" : "200px",
+            bottom: height === "740px" ? "20px" : "200px",
             left: "0",
             right: "0",
             textAlign: "center",
             padding: "20px",
-            color: "white",
-            background: "rgba(0, 0, 0, 0.9)",
+            color: "black",
+            background: "rgba(255, 255, 255, 0.95)",
           }}
         >
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -74,8 +74,30 @@ function HomepageHeader() {
   );
 }
 
+const desktoplist = [
+  {
+    url: "https://twitter.com/Thom_Wolf/status/1780241959036047604",
+  },
+  {
+    url: "https://x.com/RemiCadene/status/1799000991876178038",
+  },
+  {
+    url: "https://x.com/ax_pey/status/1787386223310393627",
+  },
+  {
+    url: "https://x.com/HaixuanT/status/1786442032602349959",
+  },
+  {
+    url: "https://x.com/LFAIDataFdn/status/1803703036432273705",
+  },
+  {
+    url: "https://twitter.com/blackanger/status/1612648192373587969",
+  },
+];
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout
       title={`1ms.ai`}
@@ -93,42 +115,11 @@ export default function Home(): JSX.Element {
           </Heading>
           <div className="container">
             <div className="row margin-top--xl margin-bottom--xl">
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://twitter.com/Thom_Wolf/status/1780241959036047604"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://x.com/RemiCadene/status/1799000991876178038"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://x.com/ax_pey/status/1787386223310393627"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://x.com/HaixuanT/status/1786442032602349959"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://x.com/LFAIDataFdn/status/1803703036432273705"
-                  width={325}
-                />
-              </div>
-              <div className="col col--4 padding--sm">
-                <XEmbed
-                  url="https://twitter.com/blackanger/status/1612648192373587969"
-                  width={325}
-                />
-              </div>
+              {desktoplist.map((props, idx) => (
+                <div className="col col--4 padding--xs">
+                  <XEmbed url={props.url} width={325} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
