@@ -7,16 +7,35 @@ type FeatureItem = {
   title: string;
   Svg: string;
   location: string;
-  duration: string;
+  since: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: "",
+    Svg: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Beijing_Academy_of_Artificial_Intelligence_logo.svg/175px-Beijing_Academy_of_Artificial_Intelligence_logo.svg.png",
+    location: "Beijing, China",
+    since: "Sept 2024",
+    description: (
+      <>
+        <h3>
+          Helping BAAI build dataset, models and leaderboard of VLA models for
+          robotics.
+        </h3>
+        <div>
+          <a href="https://github.com/FlagOpen/NERL">
+            <img src="https://gh-card.dev/repos/FlagOpen/NERL.svg" />
+          </a>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "",
     Svg: "https://www.futurewei.com/images/futurewei-logo-swirl-200x57.png",
     location: "Santa Clara, California",
-    duration: "2 years",
+    since: "Jan 2022",
     description: (
       <>
         <h3>Helping Futurewei build moonshot innovation</h3>
@@ -31,7 +50,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Hugging Face",
     Svg: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
-    duration: "1 month",
+    since: "March 2023",
     location: "Paris, France",
     description: (
       <>
@@ -47,7 +66,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "",
     Svg: "https://upload.wikimedia.org/wikipedia/fr/8/86/Logo_CentraleSup%C3%A9lec.svg",
-    duration: "1 year",
+    since: "Sept 2023",
     location: "Saclay, France",
     description: (
       <>
@@ -68,7 +87,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "",
     Svg: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg",
-    duration: "6 month",
+    since: "Dec 2023",
     location: "Beijing, China",
     description: (
       <>
@@ -84,7 +103,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "",
     Svg: "",
-    duration: "6 month",
+    since: "6 month",
     location: "",
     description: (
       <>

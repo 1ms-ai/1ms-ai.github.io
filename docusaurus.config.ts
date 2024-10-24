@@ -70,9 +70,9 @@ const config: Config = {
         // label: "User Stories",
         // },
         {
-          to: "/docs/about-us",
+          to: "/Team/",
           position: "right",
-          label: "About Us",
+          label: "Team",
         },
         //     { to: "/blog", label: "Blog", position: "left" },
       ],
