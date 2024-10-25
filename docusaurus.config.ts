@@ -70,7 +70,7 @@ const config: Config = {
         // label: "User Stories",
         // },
         {
-          to: "/Team/",
+          to: "/team",
           position: "right",
           label: "Team",
         },
