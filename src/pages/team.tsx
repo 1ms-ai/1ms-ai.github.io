@@ -14,7 +14,7 @@ import ReactPlayer from "react-player";
 const Members: FeatureItem[] = [
   {
     title: "Haixuan Xavier Tao",
-    Svg: "https://github.com/haixuantao.png",
+    Svg: "img/haixuantao.png",
     github: "https://github.com/haixuantao",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -29,7 +29,7 @@ const Members: FeatureItem[] = [
   },
   {
     title: "Enzo Le Van",
-    Svg: "https://github.com/Hennzau.png",
+    Svg: "img/enzo.jpeg",
     github: "",
     linkedin: "",
     description: (
@@ -47,7 +47,7 @@ const Members: FeatureItem[] = [
 const Sponsors: FeatureItem[] = [
   {
     title: "Thomas Wolf",
-    Svg: "https://thomwolf.io/images/thom_circle_larger.png",
+    Svg: "img/thom.png",
     github: "https://github.com/thomwolf/",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -62,7 +62,7 @@ const Sponsors: FeatureItem[] = [
   },
   {
     title: "Remi Cadene",
-    Svg: "https://github.com/cadene.png",
+    Svg: "img/cadene.png",
     github: "",
     linkedin: "",
     description: (
@@ -76,7 +76,7 @@ const Sponsors: FeatureItem[] = [
     title: "Matthieu Lapeyre",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/C4E03AQF7cnT0hLWV0A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1610095626563?e=1735171200&v=beta&t=2IEH_ZJLN6o54U-CRTe5XwS07ZB9yxuSXHnVnoMjQHI",
+    Svg: "img/matthieu.jpeg",
     description: (
       <>
         <h5>Co-founder @ Pollen Robotics</h5>
@@ -90,7 +90,7 @@ const Sponsors: FeatureItem[] = [
     title: "Yue Chen",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/D5603AQHDXmN4tJmBiw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700171149971?e=1735171200&v=beta&t=eZw0_qHTA3PaorhwCJml3QcidH2fUi1kjC8WOWgLaqo",
+    Svg: "img/yue.jpeg",
     description: (
       <h5>SVP of the Technology Strategy at Futurewei Technologies</h5>
     ),
@@ -99,28 +99,28 @@ const Sponsors: FeatureItem[] = [
     title: "Maria Makarov",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/D4E03AQHiaaMzyNK3RA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718623375913?e=1735171200&v=beta&t=joSHw8D5pvSHqY30B8eEqPYgnLg8qwTGfhLj7NEOUQo",
+    Svg: "img/maria.jpeg",
     description: <h5> Associate Professor at CentraleSupélec </h5>,
   },
   {
     title: "Giorgio Valmorbida",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/C5603AQGZTnc3kvN78A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517374292928?e=1735171200&v=beta&t=asQ_kQWMV6c7hvOIqOnt3bM1kk-VqEa-lOzGKTODtmU",
+    Svg: "img/gorgio.jpeg",
     description: <h5> Associate Professor at CentraleSupélec </h5>,
   },
   {
     title: "Zhang, Shanghang",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/C5603AQFF_PRNGni71A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517462592704?e=1735171200&v=beta&t=aVtwMe26p-Y8RIcTMBUIUGcHUc6cBWnIRbjUnMaINA4",
+    Svg: "img/zhang.jpeg",
     description: <h5> Assistant Professor at Peking University </h5>,
   },
   {
     title: "Mengdi Zhao",
     github: "",
     linkedin: "",
-    Svg: "https://i1.rgstatic.net/ii/profile.image/641945269452800-1530063087058_Q512/Mengdi-Zhao-2.jpg",
+    Svg: "img/Mengdi-Zhao.jpg",
     description: <h5> PostDoc Researcher @ BAAI and Peking University </h5>,
   },
 ];
@@ -128,7 +128,7 @@ const Sponsors: FeatureItem[] = [
 const CSTeam: FeatureItem[] = [
   {
     title: "Matéo Champaney",
-    Svg: "https://media.licdn.com/dms/image/v2/D4E03AQFAjoRiyvgJOg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720184744810?e=1735171200&v=beta&t=qz4SPXSmx96_XpbMGIV6B4Vqjn1dQ4AR2yceDIxIbpY",
+    Svg: "img/mateo.jpeg",
     github: "https://github.com/thomwolf/",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -139,7 +139,7 @@ const CSTeam: FeatureItem[] = [
   },
   {
     title: "Alexis Maes",
-    Svg: "https://media.licdn.com/dms/image/v2/D4E03AQFCpOJLDrETig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701511383436?e=1735171200&v=beta&t=Bcfs0Vf78Q1zCLkVIZ5wHhfNH1W52uyPIm4RT9HlSyI",
+    Svg: "img/alexis.jpeg",
     github: "",
     linkedin: "",
     description: (
@@ -152,7 +152,7 @@ const CSTeam: FeatureItem[] = [
     title: "Mohamed Cheikh rouhou",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/D4D03AQHl3fih_k6NyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701207384960?e=1735171200&v=beta&t=sR5jqIlcxuZ3r8r5W7qU85yjmlPaGqWBZmlB1DfF9Po",
+    Svg: "img/momo.jpeg",
     description: (
       <>
         <h5>Student @ CentraleSupélec</h5>
@@ -163,14 +163,14 @@ const CSTeam: FeatureItem[] = [
     title: "Marin Lafaury",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/D4E03AQGW_jDpIdi_Ww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701086370468?e=1735171200&v=beta&t=iwnDsK59r0FmV-0lU5zlOjUysFaT1cQfDp9iNBZHvXI",
+    Svg: "img/marin.jpeg",
     description: <h5>Student @ CentraleSupélec</h5>,
   },
   {
     title: "Matthias Orbach",
     github: "",
     linkedin: "",
-    Svg: "https://media.licdn.com/dms/image/v2/D4E03AQG-NpIL3kiY1g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712652291782?e=1735171200&v=beta&t=iIFLPAyiGGj9ar78auCcMeWEYnflbGu8v7ECqko3j88",
+    Svg: "img/matthias.jpeg",
     description: <h5>Student @ CentraleSupélec</h5>,
   },
 ];
