@@ -128,7 +128,7 @@ const Sponsors: FeatureItem[] = [
 const CSTeam: FeatureItem[] = [
   {
     title: "Matéo Champaney",
-    Svg: "img/mateo.jpeg",
+    Svg: "img/matheo.jpeg",
     github: "https://github.com/thomwolf/",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
