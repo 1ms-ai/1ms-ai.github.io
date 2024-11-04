@@ -14,7 +14,7 @@ import ReactPlayer from "react-player";
 const Members: FeatureItem[] = [
   {
     title: "Haixuan Xavier Tao",
-    Svg: "img/haixuantao.png",
+    Svg: "/img/haixuantao.png",
     github: "https://github.com/haixuantao",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -29,7 +29,7 @@ const Members: FeatureItem[] = [
   },
   {
     title: "Enzo Le Van",
-    Svg: "img/enzo.jpeg",
+    Svg: "/img/enzo.jpeg",
     github: "",
     linkedin: "",
     description: (
@@ -47,7 +47,7 @@ const Members: FeatureItem[] = [
 const Sponsors: FeatureItem[] = [
   {
     title: "Thomas Wolf",
-    Svg: "img/thom.png",
+    Svg: "/img/thom.png",
     github: "https://github.com/thomwolf/",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -62,7 +62,7 @@ const Sponsors: FeatureItem[] = [
   },
   {
     title: "Remi Cadene",
-    Svg: "img/cadene.png",
+    Svg: "/img/cadene.png",
     github: "",
     linkedin: "",
     description: (
@@ -76,7 +76,7 @@ const Sponsors: FeatureItem[] = [
     title: "Matthieu Lapeyre",
     github: "",
     linkedin: "",
-    Svg: "img/matthieu.jpeg",
+    Svg: "/img/matthieu.jpeg",
     description: (
       <>
         <h5>Co-founder @ Pollen Robotics</h5>
@@ -90,7 +90,7 @@ const Sponsors: FeatureItem[] = [
     title: "Yue Chen",
     github: "",
     linkedin: "",
-    Svg: "img/yue.jpeg",
+    Svg: "/img/yue.jpeg",
     description: (
       <h5>SVP of the Technology Strategy at Futurewei Technologies</h5>
     ),
@@ -99,28 +99,28 @@ const Sponsors: FeatureItem[] = [
     title: "Maria Makarov",
     github: "",
     linkedin: "",
-    Svg: "img/maria.jpeg",
+    Svg: "/img/maria.jpeg",
     description: <h5> Associate Professor at CentraleSupélec </h5>,
   },
   {
     title: "Giorgio Valmorbida",
     github: "",
     linkedin: "",
-    Svg: "img/gorgio.jpeg",
+    Svg: "/img/gorgio.jpeg",
     description: <h5> Associate Professor at CentraleSupélec </h5>,
   },
   {
     title: "Zhang, Shanghang",
     github: "",
     linkedin: "",
-    Svg: "img/zhang.jpeg",
+    Svg: "/img/zhang.jpeg",
     description: <h5> Assistant Professor at Peking University </h5>,
   },
   {
     title: "Mengdi Zhao",
     github: "",
     linkedin: "",
-    Svg: "img/Mengdi-Zhao.jpg",
+    Svg: "/img/Mengdi-Zhao.jpg",
     description: <h5> PostDoc Researcher @ BAAI and Peking University </h5>,
   },
 ];
@@ -128,7 +128,7 @@ const Sponsors: FeatureItem[] = [
 const CSTeam: FeatureItem[] = [
   {
     title: "Matéo Champaney",
-    Svg: "img/matheo.jpeg",
+    Svg: "/img/matheo.jpeg",
     github: "https://github.com/thomwolf/",
     linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
     description: (
@@ -139,7 +139,7 @@ const CSTeam: FeatureItem[] = [
   },
   {
     title: "Alexis Maes",
-    Svg: "img/alexis.jpeg",
+    Svg: "/img/alexis.jpeg",
     github: "",
     linkedin: "",
     description: (
@@ -152,7 +152,7 @@ const CSTeam: FeatureItem[] = [
     title: "Mohamed Cheikh rouhou",
     github: "",
     linkedin: "",
-    Svg: "img/momo.jpeg",
+    Svg: "/img/momo.jpeg",
     description: (
       <>
         <h5>Student @ CentraleSupélec</h5>
@@ -163,14 +163,14 @@ const CSTeam: FeatureItem[] = [
     title: "Marin Lafaury",
     github: "",
     linkedin: "",
-    Svg: "img/marin.jpeg",
+    Svg: "/img/marin.jpeg",
     description: <h5>Student @ CentraleSupélec</h5>,
   },
   {
     title: "Matthias Orbach",
     github: "",
     linkedin: "",
-    Svg: "img/matthias.jpeg",
+    Svg: "/img/matthias.jpeg",
     description: <h5>Student @ CentraleSupélec</h5>,
   },
 ];
