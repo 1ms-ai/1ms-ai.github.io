@@ -125,6 +125,31 @@ const Sponsors: FeatureItem[] = [
   },
 ];
 
+const BaaiTeam: FeatureItem[] = [
+  {
+    title: "Jinyang He",
+    Svg: "/img/jinyang.JPG",
+    github: "https://github.com/thomwolf/",
+    linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
+    description: (
+      <>
+        <h5>Student @ BAAI and Peking University</h5>
+      </>
+    ),
+  },
+  {
+    title: "David Hong",
+    Svg: "/img/david.jpg",
+    github: "https://github.com/thomwolf/",
+    linkedin: "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
+    description: (
+      <>
+        <h5>Student @ BAAI and Peking University</h5>
+      </>
+    ),
+  },
+];
+
 const CSTeam: FeatureItem[] = [
   {
     title: "Matéo Champaney",
@@ -228,6 +253,15 @@ export default function Home(): JSX.Element {
             that we can build robot, the way we always dreamt of.
           </Heading>
           <Team {...{ members: Members }} />
+        </div>
+        <div className="container">
+          <Heading as="h1" className="hero__title text--center">
+            BAAI / Peking University Team
+          </Heading>
+          <Heading as="h2" className=" text--center">
+            building VLA RealBench
+          </Heading>
+          <Team {...{ members: BaaiTeam }} />
         </div>
         <div className="container">
           <Heading as="h1" className="hero__title text--center">

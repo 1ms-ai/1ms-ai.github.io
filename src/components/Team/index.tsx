@@ -14,7 +14,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center text--lg">
-        <img src={Svg} width="100%" style={{ maxHeight: "400px" }}></img>
+        <img src={Svg} width="100%" style={{ maxHeight: "300px", maxWidth: "300px" }}></img>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
